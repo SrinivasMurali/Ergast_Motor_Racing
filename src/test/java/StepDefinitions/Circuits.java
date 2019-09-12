@@ -4,7 +4,6 @@ import Data.TestContext;
 import Pages.CircuitsPage;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
 
 public class Circuits {
 
@@ -12,8 +11,8 @@ public class Circuits {
     private TestContext testContext;
 
     public Circuits(TestContext testContext) throws Exception {
-       this.testContext = testContext;
-       this.circuite = new CircuitsPage(testContext);
+        this.testContext = testContext;
+        this.circuite = new CircuitsPage(testContext);
     }
 
     @Given("^Get total number of circuits for the year \"(.*?)\"$")
@@ -42,24 +41,22 @@ public class Circuits {
     }
 
     @Then("^Verify latitude of the circuite \"(.*?)\" \"(.*?)\"$")
-    public void verifyLatitude(int latitude) throws Exception{
-        circuite.verifylatitude(this.testContext.getLastAPIResponce(), circuiteName);
+    public void verifyLatitude(String circuiteName, String latitude) throws Exception{
+        circuite.verifylatitude(this.testContext.getLastAPIResponce(), circuiteName, latitude);
     }
 
     @Then("^Verify langitude of the circuite \"(.*?)\" \"(.*?)\"$")
-    public void verifyLatitude(int latitude) throws Exception{
-        circuite.verifyCircuiteName(this.testContext.getLastAPIResponce(), circuiteName);
+    public void verifyLangitude(String circuiteName, String latitude) throws Exception{
+        circuite.verifyLangitude(this.testContext.getLastAPIResponce(), circuiteName, latitude);
     }
 
     @Then("^Verify loacality of the circuite \"(.*?)\" \"(.*?)\"$")
-    public void verifyLatitude(int latitude) throws Exception{
-        circuite.verifyCircuiteName(this.testContext.getLastAPIResponce(), circuiteName);
+    public void verifyLoacality(String circuiteName, String locality) throws Exception{
+        circuite.verifyLoacality(this.testContext.getLastAPIResponce(), circuiteName, locality);
     }
 
     @Then("^Verify country of the circuite \"(.*?)\" \"(.*?)\"$")
-    public void verifyLatitude(int latitude) throws Exception{
-        circuite.verifyCircuiteName(this.testContext.getLastAPIResponce(), circuiteName);
+    public void verifyCountry(String circuiteName, String country) throws Exception{
+        circuite.verifyCountry(this.testContext.getLastAPIResponce(), circuiteName, country);
     }
-
-
 }

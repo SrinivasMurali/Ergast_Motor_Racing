@@ -25,7 +25,7 @@ public class RunCucumberTest {
     public static void setup() throws Exception {
         Reporter.loadXMLConfig(new File("src/test/resources/extent-config.xml"));
         Reporter.setSystemInfo("Test User", System.getProperty("user.name"));
-        Reporter.setSystemInfo("Application Name", "Setu");
+        Reporter.setSystemInfo("Application Name", "Demo");
         Reporter.setSystemInfo("Operating System Type", System.getProperty("os.name"));
         Reporter.setSystemInfo("Environment", "Sand box");
         Reporter.setTestRunnerOutput("Test Execution Cucumber Report");

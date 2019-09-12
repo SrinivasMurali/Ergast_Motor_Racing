@@ -1,12 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="340352b0-d034-4d61-9a84-06fa46f23b76" name="Default Changelist" comment="" />
+    <list default="true" id="340352b0-d034-4d61-9a84-06fa46f23b76" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ergast_Motor_Racing.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/CircuitsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/CircuitsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/Circuits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Circuits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner/RunCucumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/VerifyCircuitName.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/VerifyCircuitName.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-report/formatter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/jquery-1.8.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-report/jquery-1.8.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-report/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-report/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber-pretty/formatter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber-pretty/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/jquery-1.8.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber-pretty/jquery-1.8.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber-pretty/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber-pretty/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/CircuitsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/CircuitsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Circuits.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Circuits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/VerifyCircuitName.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/VerifyCircuitName.feature" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="190" />
@@ -18,16 +45,24 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1QSSHz7h8aQPMzOVL9APMfdaNkj" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/cmd/git.exe" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.capture" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -125,9 +160,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RunCucumberTest" />
-        <item itemvalue="Cucumber java.Feature: Circuits (1)" />
         <item itemvalue="JUnit.RunCucumberTest (1)" />
-        <item itemvalue="Cucumber java.Feature: Circuits" />
       </list>
     </recent_temporary>
   </component>
@@ -152,6 +185,22 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.configurationType" implementationName="CucumberJavaRunConfigurationType" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -159,11 +208,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/StepDefinitions/Circuits.java</url>
           <line>9</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/StepDefinitions/Circuits.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Pages/CircuitsPage.java</url>
@@ -174,11 +218,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/Pages/CircuitsPage.java</url>
           <line>52</line>
           <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Pages/CircuitsPage.java</url>
-          <line>67</line>
-          <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/WebServices/APIConnector.java</url>

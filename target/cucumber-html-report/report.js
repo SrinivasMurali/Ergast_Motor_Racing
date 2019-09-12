@@ -37,22 +37,22 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "Verify latitude of the circuite \"\u003clatitude\u003e\"",
+  "name": "Verify latitude of the circuite \"\u003ccircuiteID\u003e\" \"\u003clatitude\u003e\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 9,
-  "name": "Verify langitude of the circuite \"\u003clangitude\u003e\"",
+  "name": "Verify langitude of the circuite \"\u003ccircuiteID\u003e\" \"\u003clangitude\u003e\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 10,
-  "name": "Verify loacality of the circuite \"\u003clocality\u003e\"",
+  "name": "Verify loacality of the circuite \"\u003ccircuiteID\u003e\" \"\u003clocality\u003e\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 11,
-  "name": "Verify country of the circuite \"\u003ccountry\u003e\"",
+  "name": "Verify country of the circuite \"\u003ccircuiteID\u003e\" \"\u003ccountry\u003e\"",
   "keyword": "Then "
 });
 formatter.examples({
@@ -88,16 +88,35 @@ formatter.examples({
         "",
         "Circuit of the Americas",
         "",
-        "-37.8497",
+        "30.1328",
         "",
-        "144.968",
+        "-97.6411",
         "",
-        "Melbourne",
+        "Austin",
         "",
-        "Australia"
+        "USA"
       ],
       "line": 15,
       "id": "verify-the-circuit-name-and-it\u0027s-location-details;verify-circuit-of-the-americas\u0027s-location-details-are-as-expected;;2"
+    },
+    {
+      "cells": [
+        "2017",
+        "",
+        "suzuka",
+        "",
+        "Suzuka Circuit",
+        "",
+        "34.8431",
+        "",
+        "136.541",
+        "",
+        "Suzuka",
+        "",
+        "Japan"
+      ],
+      "line": 16,
+      "id": "verify-the-circuit-name-and-it\u0027s-location-details;verify-circuit-of-the-americas\u0027s-location-details-are-as-expected;;3"
     }
   ],
   "keyword": "Examples"
@@ -142,32 +161,36 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "Verify latitude of the circuite \"-37.8497\"",
+  "name": "Verify latitude of the circuite \"americas\" \"30.1328\"",
   "matchedColumns": [
+    2,
     6
   ],
   "keyword": "Then "
 });
 formatter.step({
   "line": 9,
-  "name": "Verify langitude of the circuite \"144.968\"",
+  "name": "Verify langitude of the circuite \"americas\" \"-97.6411\"",
   "matchedColumns": [
+    2,
     8
   ],
   "keyword": "Then "
 });
 formatter.step({
   "line": 10,
-  "name": "Verify loacality of the circuite \"Melbourne\"",
+  "name": "Verify loacality of the circuite \"americas\" \"Austin\"",
   "matchedColumns": [
+    2,
     10
   ],
   "keyword": "Then "
 });
 formatter.step({
   "line": 11,
-  "name": "Verify country of the circuite \"Australia\"",
+  "name": "Verify country of the circuite \"americas\" \"USA\"",
   "matchedColumns": [
+    2,
     12
   ],
   "keyword": "Then "
@@ -182,7 +205,7 @@ formatter.match({
   "location": "Circuits.getTotalNumberOfCircuits(int)"
 });
 formatter.result({
-  "duration": 697150500,
+  "duration": 702519500,
   "status": "passed"
 });
 formatter.match({
@@ -195,7 +218,7 @@ formatter.match({
   "location": "Circuits.verifyCircuiteID(String)"
 });
 formatter.result({
-  "duration": 3471100,
+  "duration": 3343100,
   "status": "passed"
 });
 formatter.match({
@@ -208,7 +231,256 @@ formatter.match({
   "location": "Circuits.verifyCircuiteName(String)"
 });
 formatter.result({
-  "duration": 18036793800,
+  "duration": 112300,
   "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "americas",
+      "offset": 33
+    },
+    {
+      "val": "30.1328",
+      "offset": 44
+    }
+  ],
+  "location": "Circuits.verifyLatitude(String,String)"
+});
+formatter.result({
+  "duration": 538900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "americas",
+      "offset": 34
+    },
+    {
+      "val": "-97.6411",
+      "offset": 45
+    }
+  ],
+  "location": "Circuits.verifyLangitude(String,String)"
+});
+formatter.result({
+  "duration": 251600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "americas",
+      "offset": 34
+    },
+    {
+      "val": "Austin",
+      "offset": 45
+    }
+  ],
+  "location": "Circuits.verifyLoacality(String,String)"
+});
+formatter.result({
+  "duration": 275500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "americas",
+      "offset": 32
+    },
+    {
+      "val": "USA",
+      "offset": 43
+    }
+  ],
+  "location": "Circuits.verifyCountry(String,String)"
+});
+formatter.result({
+  "duration": 271800,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 16,
+  "name": "Verify circuit of the americas\u0027s location details are as expected",
+  "description": "",
+  "id": "verify-the-circuit-name-and-it\u0027s-location-details;verify-circuit-of-the-americas\u0027s-location-details-are-as-expected;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@CircuiteName"
+    }
+  ]
+});
+formatter.step({
+  "line": 5,
+  "name": "Get total number of circuits for the year \"2017\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "Verify circuite id is \"suzuka\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 7,
+  "name": "Verify circuite \"Suzuka Circuit\" name is display",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "Verify latitude of the circuite \"suzuka\" \"34.8431\"",
+  "matchedColumns": [
+    2,
+    6
+  ],
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 9,
+  "name": "Verify langitude of the circuite \"suzuka\" \"136.541\"",
+  "matchedColumns": [
+    2,
+    8
+  ],
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 10,
+  "name": "Verify loacality of the circuite \"suzuka\" \"Suzuka\"",
+  "matchedColumns": [
+    2,
+    10
+  ],
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 11,
+  "name": "Verify country of the circuite \"suzuka\" \"Japan\"",
+  "matchedColumns": [
+    2,
+    12
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2017",
+      "offset": 43
+    }
+  ],
+  "location": "Circuits.getTotalNumberOfCircuits(int)"
+});
+formatter.result({
+  "duration": 282747700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "suzuka",
+      "offset": 23
+    }
+  ],
+  "location": "Circuits.verifyCircuiteID(String)"
+});
+formatter.result({
+  "duration": 218000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Suzuka Circuit",
+      "offset": 17
+    }
+  ],
+  "location": "Circuits.verifyCircuiteName(String)"
+});
+formatter.result({
+  "duration": 278900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "suzuka",
+      "offset": 33
+    },
+    {
+      "val": "34.8431",
+      "offset": 42
+    }
+  ],
+  "location": "Circuits.verifyLatitude(String,String)"
+});
+formatter.result({
+  "duration": 1095900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "suzuka",
+      "offset": 34
+    },
+    {
+      "val": "136.541",
+      "offset": 43
+    }
+  ],
+  "location": "Circuits.verifyLangitude(String,String)"
+});
+formatter.result({
+  "duration": 3049800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "suzuka",
+      "offset": 34
+    },
+    {
+      "val": "Suzuka",
+      "offset": 43
+    }
+  ],
+  "location": "Circuits.verifyLoacality(String,String)"
+});
+formatter.result({
+  "duration": 604700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "suzuka",
+      "offset": 32
+    },
+    {
+      "val": "Japan",
+      "offset": 41
+    }
+  ],
+  "location": "Circuits.verifyCountry(String,String)"
+});
+formatter.result({
+  "duration": 572100,
+  "status": "passed"
+});
+});
