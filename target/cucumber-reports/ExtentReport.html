@@ -53,7 +53,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Sep 13, 2019 11:55:37 AM</span>
+                    <span class='label suite-start-time blue darken-3'>Sep 13, 2019 12:07:44 PM</span>
 				</a>
 			</li>
 			<li>
@@ -154,7 +154,7 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>7</span> scenario(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>8</span> scenario(s) passed</span>
 				</div>
 				<div class='block text-small'>
 					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -169,7 +169,7 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>29</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>36</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
 					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -189,12 +189,12 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Find Formula 1 races, drivers, circuits etc..</span>
-						<span class='test-time'>Sep 13, 2019 11:55:37 AM</span>
+						<span class='test-time'>Sep 13, 2019 12:07:44 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenariooutline node' test-id='2' status='pass'>
-	<span class='duration right label'>0h 0m 1s+535ms</span>
+	<span class='duration right label'>0h 0m 1s+744ms</span>
 	<div class='desc'>
 		<b>ScenarioOutline</b>
 		<span class="desc-text">Find the total number of circuits in differrent years</span>
@@ -289,12 +289,12 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='15'>
 					<div class='test-heading'>
 						<span class='test-name'>Verify the circuit name and it's location details</span>
-						<span class='test-time'>Sep 13, 2019 11:55:39 AM</span>
+						<span class='test-time'>Sep 13, 2019 12:07:45 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenariooutline node' test-id='16' status='pass'>
-	<span class='duration right label'>0h 0m 1s+72ms</span>
+	<span class='duration right label'>0h 0m 1s+380ms</span>
 	<div class='desc'>
 		<b>ScenarioOutline</b>
 		<span class="desc-text">Verify circuit of the americas's location details are as expected</span>
@@ -420,6 +420,46 @@
 					</li>
 				</ul>
 		</li>
+		<li test-id='41' class='node scenario pass' status='pass'>
+			<div class='category-list'>
+				<span class='category label white-text'>@CircuiteName</span>
+			</div>
+			
+			<b>Scenario</b>
+			
+			<span class="bdd-step-name">Verify circuit of the americas's location details are as expected</span>
+			
+				<ul class='steps'>
+					<li test-id='42' class='node given pass' status='pass'><b>Given</b>
+						<span class="bdd-step-name">Given Get total number of circuits for the year "2019"</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='43' class='node then pass' status='pass'><b>Then</b>
+						<span class="bdd-step-name">Then Verify circuite id is "americas"</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='44' class='node when pass' status='pass'><b>When</b>
+						<span class="bdd-step-name">When Verify circuite "Circuit of the Americas" name is display</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='45' class='node then pass' status='pass'><b>Then</b>
+						<span class="bdd-step-name">Then Verify latitude of the circuite "americas" "30.1328"</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='46' class='node then pass' status='pass'><b>Then</b>
+						<span class="bdd-step-name">Then Verify langitude of the circuite "americas" "-97.6411"</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='47' class='node then pass' status='pass'><b>Then</b>
+						<span class="bdd-step-name">Then Verify loacality of the circuite "americas" "Austin"</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='48' class='node then pass' status='pass'><b>Then</b>
+						<span class="bdd-step-name">Then Verify country of the circuite "americas" "USA"</span>
+							<div class='pre'>passed</div>
+					</li>
+				</ul>
+		</li>
 	</ul>
 </div>
 					</div>
@@ -478,12 +518,12 @@
 					<div class='category-heading'>
 						<span class='category-name'>@CircuiteName</span>
 						<span class='category-status right'>
-							<span class='label pass'>9</span>
+							<span class='label pass'>10</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 9</span>
+							<span class='label green accent-4 white-text'>Passed: 10</span>
 							
 							
 						</div>
@@ -499,48 +539,53 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Sep 13, 2019 11:55:37 AM</td>
+										<td>Sep 13, 2019 12:07:44 PM</td>
 										<td class='linked' test-id='1'>Find Formula 1 races, drivers, circuits etc..</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Sep 13, 2019 11:55:37 AM</td>
+										<td>Sep 13, 2019 12:07:44 PM</td>
 										<td class='linked' test-id='3'>Find Formula 1 races, drivers, circuits etc...Find the total number of circuits in differrent years.Find the total number of circuits in differrent years</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Sep 13, 2019 11:55:38 AM</td>
+										<td>Sep 13, 2019 12:07:45 PM</td>
 										<td class='linked' test-id='6'>Find Formula 1 races, drivers, circuits etc...Find the total number of circuits in differrent years.Find the total number of circuits in differrent years</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Sep 13, 2019 11:55:38 AM</td>
+										<td>Sep 13, 2019 12:07:45 PM</td>
 										<td class='linked' test-id='9'>Find Formula 1 races, drivers, circuits etc...Find the total number of circuits in differrent years.Find the total number of circuits in differrent years</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Sep 13, 2019 11:55:38 AM</td>
+										<td>Sep 13, 2019 12:07:45 PM</td>
 										<td class='linked' test-id='12'>Find Formula 1 races, drivers, circuits etc...Find the total number of circuits in differrent years.Find the total number of circuits in differrent years</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Sep 13, 2019 11:55:39 AM</td>
+										<td>Sep 13, 2019 12:07:45 PM</td>
 										<td class='linked' test-id='15'>Verify the circuit name and it's location details</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Sep 13, 2019 11:55:39 AM</td>
+										<td>Sep 13, 2019 12:07:45 PM</td>
 										<td class='linked' test-id='17'>Verify the circuit name and it's location details.Verify circuit of the americas's location details are as expected.Verify circuit of the americas's location details are as expected</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Sep 13, 2019 11:55:39 AM</td>
+										<td>Sep 13, 2019 12:07:46 PM</td>
 										<td class='linked' test-id='25'>Verify the circuit name and it's location details.Verify circuit of the americas's location details are as expected.Verify circuit of the americas's location details are as expected</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Sep 13, 2019 11:55:40 AM</td>
+										<td>Sep 13, 2019 12:07:46 PM</td>
 										<td class='linked' test-id='33'>Verify the circuit name and it's location details.Verify circuit of the americas's location details are as expected.Verify circuit of the americas's location details are as expected</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Sep 13, 2019 12:07:47 PM</td>
+										<td class='linked' test-id='41'>Verify the circuit name and it's location details.Verify circuit of the americas's location details are as expected.Verify circuit of the americas's location details are as expected</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -575,31 +620,31 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Scenarios
-					<div class='panel-lead'>7</div>
+					<div class='panel-lead'>8</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>29</div>
+					<div class='panel-lead'>36</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Sep 13, 2019 11:55:37 AM</div>
+					<div class='panel-lead'>Sep 13, 2019 12:07:44 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Sep 13, 2019 11:55:40 AM</div>
+			 		<div class='panel-lead'>Sep 13, 2019 12:07:47 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>2,876ms</div>
+					<div class='panel-lead'>3,381ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -644,7 +689,7 @@
 						</tr>
 						<tr>
 							<td>@CircuiteName</td>
-							<td>9</td>
+							<td>10</td>
 							<td>0</td>
 							<td>0</td>
 							<td>
@@ -681,7 +726,7 @@
 				skipParent: 0,
 				exceptionsParent: 0,
 				
-				passChild: 7,
+				passChild: 8,
 				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
@@ -690,7 +735,7 @@
 				infoChild: 0,
 				exceptionsChild: 0,
 				
-				passGrandChild: 29,
+				passGrandChild: 36,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,

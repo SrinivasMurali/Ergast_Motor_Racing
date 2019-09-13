@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="340352b0-d034-4d61-9a84-06fa46f23b76" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/VerifyCircuitName.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/VerifyCircuitName.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-report/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber-pretty/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/VerifyCircuitName.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/VerifyCircuitName.feature" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

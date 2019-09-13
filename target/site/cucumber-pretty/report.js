@@ -146,7 +146,7 @@ formatter.match({
   "location": "Circuits.getTotalNumberOfCircuits(int)"
 });
 formatter.result({
-  "duration": 463141400,
+  "duration": 543622000,
   "status": "passed"
 });
 formatter.match({
@@ -159,7 +159,7 @@ formatter.match({
   "location": "Circuits.verifyTotalNumberOfCircuits(int)"
 });
 formatter.result({
-  "duration": 2761900,
+  "duration": 2506100,
   "status": "passed"
 });
 formatter.scenario({
@@ -208,7 +208,7 @@ formatter.match({
   "location": "Circuits.getTotalNumberOfCircuits(int)"
 });
 formatter.result({
-  "duration": 299300800,
+  "duration": 297905200,
   "status": "passed"
 });
 formatter.match({
@@ -221,7 +221,7 @@ formatter.match({
   "location": "Circuits.verifyTotalNumberOfCircuits(int)"
 });
 formatter.result({
-  "duration": 169500,
+  "duration": 118500,
   "status": "passed"
 });
 formatter.scenario({
@@ -270,7 +270,7 @@ formatter.match({
   "location": "Circuits.getTotalNumberOfCircuits(int)"
 });
 formatter.result({
-  "duration": 286220300,
+  "duration": 294179500,
   "status": "passed"
 });
 formatter.match({
@@ -283,7 +283,7 @@ formatter.match({
   "location": "Circuits.verifyTotalNumberOfCircuits(int)"
 });
 formatter.result({
-  "duration": 399300,
+  "duration": 416300,
   "status": "passed"
 });
 formatter.scenario({
@@ -332,7 +332,7 @@ formatter.match({
   "location": "Circuits.getTotalNumberOfCircuits(int)"
 });
 formatter.result({
-  "duration": 293362700,
+  "duration": 282219600,
   "status": "passed"
 });
 formatter.match({
@@ -345,7 +345,7 @@ formatter.match({
   "location": "Circuits.verifyTotalNumberOfCircuits(int)"
 });
 formatter.result({
-  "duration": 129300,
+  "duration": 357500,
   "status": "passed"
 });
 formatter.uri("features/VerifyCircuitName.feature");
@@ -486,6 +486,25 @@ formatter.examples({
       ],
       "line": 17,
       "id": "verify-the-circuit-name-and-it\u0027s-location-details;verify-circuit-of-the-americas\u0027s-location-details-are-as-expected;;4"
+    },
+    {
+      "cells": [
+        "2019",
+        "",
+        "americas",
+        "",
+        "Circuit of the Americas",
+        "",
+        "30.1328",
+        "",
+        "-97.6411",
+        "",
+        "Austin",
+        "",
+        "USA"
+      ],
+      "line": 18,
+      "id": "verify-the-circuit-name-and-it\u0027s-location-details;verify-circuit-of-the-americas\u0027s-location-details-are-as-expected;;5"
     }
   ],
   "keyword": "Examples"
@@ -574,7 +593,7 @@ formatter.match({
   "location": "Circuits.getTotalNumberOfCircuits(int)"
 });
 formatter.result({
-  "duration": 296814200,
+  "duration": 289408200,
   "status": "passed"
 });
 formatter.match({
@@ -587,7 +606,7 @@ formatter.match({
   "location": "Circuits.verifyCircuiteID(String)"
 });
 formatter.result({
-  "duration": 2471500,
+  "duration": 2166200,
   "status": "passed"
 });
 formatter.match({
@@ -600,7 +619,7 @@ formatter.match({
   "location": "Circuits.verifyCircuiteName(String)"
 });
 formatter.result({
-  "duration": 198800,
+  "duration": 164600,
   "status": "passed"
 });
 formatter.match({
@@ -617,7 +636,7 @@ formatter.match({
   "location": "Circuits.verifyLatitude(String,String)"
 });
 formatter.result({
-  "duration": 294000,
+  "duration": 495000,
   "status": "passed"
 });
 formatter.match({
@@ -634,7 +653,7 @@ formatter.match({
   "location": "Circuits.verifyLangitude(String,String)"
 });
 formatter.result({
-  "duration": 513200,
+  "duration": 494800,
   "status": "passed"
 });
 formatter.match({
@@ -651,7 +670,7 @@ formatter.match({
   "location": "Circuits.verifyLoacality(String,String)"
 });
 formatter.result({
-  "duration": 5244900,
+  "duration": 296500,
   "status": "passed"
 });
 formatter.match({
@@ -668,7 +687,7 @@ formatter.match({
   "location": "Circuits.verifyCountry(String,String)"
 });
 formatter.result({
-  "duration": 171200,
+  "duration": 378900,
   "status": "passed"
 });
 formatter.scenario({
@@ -755,7 +774,7 @@ formatter.match({
   "location": "Circuits.getTotalNumberOfCircuits(int)"
 });
 formatter.result({
-  "duration": 298038300,
+  "duration": 291264800,
   "status": "passed"
 });
 formatter.match({
@@ -768,7 +787,7 @@ formatter.match({
   "location": "Circuits.verifyCircuiteID(String)"
 });
 formatter.result({
-  "duration": 307100,
+  "duration": 164400,
   "status": "passed"
 });
 formatter.match({
@@ -781,7 +800,7 @@ formatter.match({
   "location": "Circuits.verifyCircuiteName(String)"
 });
 formatter.result({
-  "duration": 290800,
+  "duration": 181800,
   "status": "passed"
 });
 formatter.match({
@@ -798,7 +817,7 @@ formatter.match({
   "location": "Circuits.verifyLatitude(String,String)"
 });
 formatter.result({
-  "duration": 1699700,
+  "duration": 3175700,
   "status": "passed"
 });
 formatter.match({
@@ -815,7 +834,7 @@ formatter.match({
   "location": "Circuits.verifyLangitude(String,String)"
 });
 formatter.result({
-  "duration": 4109200,
+  "duration": 1798300,
   "status": "passed"
 });
 formatter.match({
@@ -832,7 +851,7 @@ formatter.match({
   "location": "Circuits.verifyLoacality(String,String)"
 });
 formatter.result({
-  "duration": 1807700,
+  "duration": 1207800,
   "status": "passed"
 });
 formatter.match({
@@ -849,7 +868,7 @@ formatter.match({
   "location": "Circuits.verifyCountry(String,String)"
 });
 formatter.result({
-  "duration": 4353800,
+  "duration": 1332200,
   "status": "passed"
 });
 formatter.scenario({
@@ -936,7 +955,7 @@ formatter.match({
   "location": "Circuits.getTotalNumberOfCircuits(int)"
 });
 formatter.result({
-  "duration": 292685100,
+  "duration": 292574500,
   "status": "passed"
 });
 formatter.match({
@@ -949,7 +968,7 @@ formatter.match({
   "location": "Circuits.verifyCircuiteID(String)"
 });
 formatter.result({
-  "duration": 219500,
+  "duration": 142800,
   "status": "passed"
 });
 formatter.match({
@@ -962,7 +981,7 @@ formatter.match({
   "location": "Circuits.verifyCircuiteName(String)"
 });
 formatter.result({
-  "duration": 151600,
+  "duration": 130200,
   "status": "passed"
 });
 formatter.match({
@@ -979,7 +998,7 @@ formatter.match({
   "location": "Circuits.verifyLatitude(String,String)"
 });
 formatter.result({
-  "duration": 317000,
+  "duration": 372500,
   "status": "passed"
 });
 formatter.match({
@@ -996,7 +1015,7 @@ formatter.match({
   "location": "Circuits.verifyLangitude(String,String)"
 });
 formatter.result({
-  "duration": 235200,
+  "duration": 291100,
   "status": "passed"
 });
 formatter.match({
@@ -1013,7 +1032,7 @@ formatter.match({
   "location": "Circuits.verifyLoacality(String,String)"
 });
 formatter.result({
-  "duration": 335900,
+  "duration": 294800,
   "status": "passed"
 });
 formatter.match({
@@ -1030,7 +1049,188 @@ formatter.match({
   "location": "Circuits.verifyCountry(String,String)"
 });
 formatter.result({
-  "duration": 290800,
+  "duration": 264200,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 18,
+  "name": "Verify circuit of the americas\u0027s location details are as expected",
+  "description": "",
+  "id": "verify-the-circuit-name-and-it\u0027s-location-details;verify-circuit-of-the-americas\u0027s-location-details-are-as-expected;;5",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@CircuiteName"
+    }
+  ]
+});
+formatter.step({
+  "line": 5,
+  "name": "Get total number of circuits for the year \"2019\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "Verify circuite id is \"americas\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 7,
+  "name": "Verify circuite \"Circuit of the Americas\" name is display",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "Verify latitude of the circuite \"americas\" \"30.1328\"",
+  "matchedColumns": [
+    2,
+    6
+  ],
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 9,
+  "name": "Verify langitude of the circuite \"americas\" \"-97.6411\"",
+  "matchedColumns": [
+    2,
+    8
+  ],
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 10,
+  "name": "Verify loacality of the circuite \"americas\" \"Austin\"",
+  "matchedColumns": [
+    2,
+    10
+  ],
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 11,
+  "name": "Verify country of the circuite \"americas\" \"USA\"",
+  "matchedColumns": [
+    2,
+    12
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2019",
+      "offset": 43
+    }
+  ],
+  "location": "Circuits.getTotalNumberOfCircuits(int)"
+});
+formatter.result({
+  "duration": 300371000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "americas",
+      "offset": 23
+    }
+  ],
+  "location": "Circuits.verifyCircuiteID(String)"
+});
+formatter.result({
+  "duration": 402700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Circuit of the Americas",
+      "offset": 17
+    }
+  ],
+  "location": "Circuits.verifyCircuiteName(String)"
+});
+formatter.result({
+  "duration": 282500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "americas",
+      "offset": 33
+    },
+    {
+      "val": "30.1328",
+      "offset": 44
+    }
+  ],
+  "location": "Circuits.verifyLatitude(String,String)"
+});
+formatter.result({
+  "duration": 581100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "americas",
+      "offset": 34
+    },
+    {
+      "val": "-97.6411",
+      "offset": 45
+    }
+  ],
+  "location": "Circuits.verifyLangitude(String,String)"
+});
+formatter.result({
+  "duration": 243600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "americas",
+      "offset": 34
+    },
+    {
+      "val": "Austin",
+      "offset": 45
+    }
+  ],
+  "location": "Circuits.verifyLoacality(String,String)"
+});
+formatter.result({
+  "duration": 1528600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "americas",
+      "offset": 32
+    },
+    {
+      "val": "USA",
+      "offset": 43
+    }
+  ],
+  "location": "Circuits.verifyCountry(String,String)"
+});
+formatter.result({
+  "duration": 502900,
   "status": "passed"
 });
 });
