@@ -14,3 +14,4 @@ Feature: Verify the circuit name and it's location details
     | year | | circuiteID | | Circuite_Name           | | latitude | | langitude | | locality | | country |
     | 2016 | | americas   | | Circuit of the Americas | | 30.1328  | | -97.6411  | | Austin   | | USA |
     | 2017 | | suzuka     | | Suzuka Circuit          | | 34.8431  | | 136.541   | | Suzuka   | | Japan |
+    | 2018 | | albert_park     | | Albert Park Grand Prix Circuit          | | -37.8497  | | 144.968   | | Melbourne   | | Australia |
