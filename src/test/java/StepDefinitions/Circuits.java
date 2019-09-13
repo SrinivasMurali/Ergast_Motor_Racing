@@ -15,9 +15,9 @@ public class Circuits {
         this.circuite = new CircuitsPage(testContext);
     }
 
-    @Given("^Get total number of circuits for the year \"(.*?)\"$")
-    public void getTotalNumberOfCircuits(int year) throws Exception{
-        circuite.getTotalCircuits(year);
+    @Given("^Verify total number of circuits for the year \"(.*?)\" \"(.*?)\"$")
+    public void getTotalNumberOfCircuits(int year, int circuiteCount) throws Exception{
+        circuite.getTotalCircuits(year, circuiteCount);
     }
 
     @Then("^Verify status code for get circuite request \"(.*?)\"$")

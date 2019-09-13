@@ -16,10 +16,12 @@ public class CircuitsPage {
         this.testContext = testContext;
     }
 
-    public void getTotalCircuits(int year) throws Exception {
+    public void getTotalCircuits(int year, int circuiteCount) throws Exception {
         JSONObject jsonObject = connector.getTotalCircuits(this.testContext.getLastAPIResponce(), year);
         JSONObject data = jsonObject.getJSONObject("MRData");
         String total = data.getString("total");
+        int total1 = Integer.parseInt(total);
+        Assert.assertEquals(circuiteCount, total1);
         this.testContext.setLastAPIResponce(jsonObject);
     }
 

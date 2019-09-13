@@ -1,8 +1,8 @@
-@CircuiteName
+@Circuite
 Feature: Find Formula 1 races, drivers, circuits etc..
 
 Scenario Outline: Find the total number of circuits in differrent years
-  Given Get total number of circuits for the year "<year>"
+  Given Verify total number of circuits for the year "<year>" "<circuites>"
   #Then Verify status code for get circuite request "<status>"
   Then Verify total number of circuits "<circuits>"
   Examples:

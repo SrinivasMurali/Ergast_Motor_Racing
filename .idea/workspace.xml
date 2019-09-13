@@ -3,11 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="340352b0-d034-4d61-9a84-06fa46f23b76" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/CircuitsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/CircuitsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/Circuits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Circuits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Circuits.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Circuits.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/VerifyCircuitName.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/VerifyCircuitName.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-report/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-reports/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber-pretty/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/CircuitsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/CircuitsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Circuits.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Circuits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Circuits.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Circuits.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/features/VerifyCircuitName.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/VerifyCircuitName.feature" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -195,13 +202,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Pages/CircuitsPage.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="19" />
+          <line>54</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Pages/CircuitsPage.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="27" />
+          <line>19</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/StepDefinitions/Circuits.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Pages/CircuitsPage.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/WebServices/APIConnector.java</url>
@@ -210,6 +227,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/WebServices/APIConnector.java</url>
+          <line>10</line>
+          <properties class="WebServices.APIConnector" method="getTotalCircuits">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
