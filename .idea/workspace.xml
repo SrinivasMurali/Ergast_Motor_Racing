@@ -2,29 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="340352b0-d034-4d61-9a84-06fa46f23b76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.ignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ergast_Motor_Racing.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/CircuitsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/CircuitsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/Circuits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Circuits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner/RunCucumberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/VerifyCircuitName.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/VerifyCircuitName.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-report/formatter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/jquery-1.8.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-report/jquery-1.8.2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-report/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-report/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber-pretty/formatter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber-pretty/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/jquery-1.8.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber-pretty/jquery-1.8.2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber-pretty/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber-pretty/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/CircuitsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/CircuitsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Circuits.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Circuits.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/VerifyCircuitName.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/VerifyCircuitName.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Circuits.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Circuits.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/formatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/jquery-1.8.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/ExtentReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/formatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/jquery-1.8.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseTest/Configuration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Data/TestContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/CircuitsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Circuits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestRunner/RunCucumberTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WebServices/APIConnector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/extent-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Circuits.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/VerifyCircuitName.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/propertiesFiles/url.properties" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

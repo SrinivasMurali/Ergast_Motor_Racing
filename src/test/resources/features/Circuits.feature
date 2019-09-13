@@ -1,4 +1,4 @@
-@Circuits
+@CircuiteName
 Feature: Find Formula 1 races, drivers, circuits etc..
 
 Scenario Outline: Find the total number of circuits in differrent years
@@ -11,4 +11,3 @@ Scenario Outline: Find the total number of circuits in differrent years
     | 2017   | |  200    | | 20       |
     | 2018   | |  200    | | 21       |
     | 2019   | |  200    | | 21       |
-
